@@ -8,7 +8,7 @@ const staticRoutes: Array<RouteRecordRaw> = [
     component: GwmsDashboardVue
   },
   {
-    path: '**',
+    path: '/**',
     name: '404',
     component: import('@/pages/NotFound/NotFound.vue')
   }
